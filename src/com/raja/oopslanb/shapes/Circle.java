@@ -14,7 +14,6 @@ public class Circle extends Shape {
 		this.length = input.nextDouble();
 		this.area = Math.PI * this.length * this.length;
 		System.out.println("Area of the Circle is : " + this.area);
-		input.close();
 	}
 
 }

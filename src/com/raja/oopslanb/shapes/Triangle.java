@@ -16,7 +16,6 @@ public class Triangle extends Shape {
 		this.hight = input.nextDouble();
 		this.area = 0.5 * this.length * this.hight;
 		System.out.println("Area of the Triangle is : " + this.area);
-		input.close();
 	}
 
 }

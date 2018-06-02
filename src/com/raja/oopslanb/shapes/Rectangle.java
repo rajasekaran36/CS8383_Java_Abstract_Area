@@ -16,7 +16,6 @@ public class Rectangle extends Shape {
 		this.hight = input.nextDouble();
 		this.area = this.length * this.hight;
 		System.out.println("Area of the Rectangle is : " + this.area);
-		input.close();
 	}
 
 }
